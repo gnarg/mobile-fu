@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Brendan G. Lim"]
-  s.date = %q{2010-10-07}
+  s.date = %q{2010-10-08}
   s.description = %q{Want to automatically detect mobile devices that access your Rails application? Mobile Fu allows you to do just that. People can access your site from a Palm, Blackberry, iPhone, iPad, Nokia, etc. and it will automatically adjust the format of the request from :html to :mobile.}
   s.email = %q{brendangl@gmail.com}
   s.extra_rdoc_files = [
@@ -20,11 +20,14 @@ Gem::Specification.new do |s|
      "MIT-LICENSE",
      "README.rdoc",
      "Rakefile",
+     "VERSION",
      "init.rb",
      "install.rb",
      "lib/mobile_fu.rb",
      "lib/mobile_fu_helper.rb",
      "lib/mobilized_styles.rb",
+     "mobile_fu.gemspec",
+     "rails/init.rb",
      "spec/mobilized_styles_spec.rb",
      "spec/spec.opts",
      "spec/spec_helper.rb",
